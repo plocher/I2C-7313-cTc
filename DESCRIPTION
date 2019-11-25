@@ -1,5 +1,8 @@
 I2C MAX7313-based IO Expander cTc Wiring Harness
 
+Manual panelization of the 2.1 design, made such that the unbroken board set would exactly fit the 2" spacing on the cTc machine panel.
+
+
 Simple PCBs to help with taming the wiring ratsnest found behind a CTC machine's panels by concentrating the majority of LEDs and Switches directly on a PCB.
 
 
