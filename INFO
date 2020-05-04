@@ -5,3 +5,4 @@ fabricated: yes
 fab_date: 2017-11
 status: released
 release: yes
+tags: [SPCoast, eagle, I2C, cTc]
