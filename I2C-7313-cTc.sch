@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5368,21 +5368,21 @@ W = angled&lt;p&gt;
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="SPCoast" deviceset="R*" device="0805-RES" value="82R"/>
-<part name="MCLED" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK"/>
-<part name="MODBOARDLEDS" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK_LONGPADS"/>
+<part name="MCLED" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK" value="0.100"/>
+<part name="MODBOARDLEDS" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK_LONGPADS" value="0.100"/>
 <part name="R7" library="SPCoast" deviceset="R*" device="0805-RES" value="82R"/>
 <part name="R8" library="SPCoast" deviceset="R*" device="0805-RES" value="82R"/>
 <part name="R9" library="SPCoast" deviceset="R*" device="0805-RES" value="82R"/>
-<part name="CON1" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT"/>
-<part name="MCSWITCH" library="SPCoast" deviceset="CONNECTOR-M02" device="5MM-LOCK"/>
+<part name="CON1" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT" value="I2C"/>
+<part name="MCSWITCH" library="SPCoast" deviceset="CONNECTOR-M02" device="5MM-LOCK" value="0.200"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="CODEBUTTON" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK"/>
+<part name="CODEBUTTON" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK" value="0.100"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="maxim" deviceset="MAX7313AEG" device=""/>
-<part name="I2C-CABLE" library="con-lstb" deviceset="MA04-2" device=""/>
-<part name="AD0" library="con-lstb" deviceset="MA04-2" device=""/>
-<part name="AD1" library="con-lstb" deviceset="MA04-2" device=""/>
-<part name="AD2" library="con-lstb" deviceset="MA04-2" device=""/>
+<part name="I2C-CABLE" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
+<part name="AD0" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
+<part name="AD1" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
+<part name="AD2" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
 <part name="VR1" library="SPCoast" deviceset="VREG_LM1117" device="SOT223" value="3v3"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -5427,21 +5427,21 @@ W = angled&lt;p&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R22" library="SPCoast" deviceset="R*" device="0805-RES" value="82R"/>
-<part name="MCLED1" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK"/>
-<part name="MODBOARDLEDS1" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK_LONGPADS"/>
+<part name="MCLED1" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK" value="0.100"/>
+<part name="MODBOARDLEDS1" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK_LONGPADS" value="0.100"/>
 <part name="R23" library="SPCoast" deviceset="R*" device="0805-RES" value="82R"/>
 <part name="R24" library="SPCoast" deviceset="R*" device="0805-RES" value="82R"/>
 <part name="R25" library="SPCoast" deviceset="R*" device="0805-RES" value="82R"/>
-<part name="CON2" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT"/>
-<part name="MCSWITCH1" library="SPCoast" deviceset="CONNECTOR-M02" device="5MM-LOCK"/>
+<part name="CON2" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT" value="I2C"/>
+<part name="MCSWITCH1" library="SPCoast" deviceset="CONNECTOR-M02" device="5MM-LOCK" value="0.200"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="CODEBUTTON1" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK"/>
+<part name="CODEBUTTON1" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK" value="0.100"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="maxim" deviceset="MAX7313AEG" device=""/>
-<part name="I2C-CABLE1" library="con-lstb" deviceset="MA04-2" device=""/>
-<part name="AD3" library="con-lstb" deviceset="MA04-2" device=""/>
-<part name="AD4" library="con-lstb" deviceset="MA04-2" device=""/>
-<part name="AD5" library="con-lstb" deviceset="MA04-2" device=""/>
+<part name="I2C-CABLE1" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
+<part name="AD3" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
+<part name="AD4" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
+<part name="AD5" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
 <part name="VR2" library="SPCoast" deviceset="VREG_LM1117" device="SOT223" value="3v3"/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
@@ -5469,7 +5469,7 @@ W = angled&lt;p&gt;
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
-<part name="BOARD1" library="SPCoast" deviceset="BOARD" device="100X150X2-NOHOLES"/>
+<part name="BOARD1" library="SPCoast" deviceset="BOARD" device="100X150X2-NOHOLES" value="BOARD"/>
 </parts>
 <sheets>
 <sheet>
