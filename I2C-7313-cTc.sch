@@ -6762,7 +6762,7 @@ green   2.2     160     82      56      43
 </text>
 <text x="149.86" y="20.32" size="2.1844" layer="91">cTc Panel Wiring Simplifier
 I2C switch and LED interface</text>
-<text x="239.268" y="13.462" size="2.1844" layer="91">2.1</text>
+<text x="239.268" y="13.462" size="2.1844" layer="91">2.2</text>
 <text x="240.284" y="6.858" size="2.1844" layer="91">B</text>
 <text x="144.78" y="139.7" size="1.778" layer="91" font="fixed">Red/Orange/Yellow       82    
 green                  56      
@@ -6863,9 +6863,9 @@ green                  56
 <attribute name="VALUE" x="109.22" y="60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="BOARD1" gate="B" x="238.76" y="33.02"/>
-<instance part="SW-SW1" gate="SW1" x="86.36" y="134.62" rot="R180"/>
-<instance part="GND19" gate="1" x="99.06" y="124.46"/>
-<instance part="GND9" gate="1" x="81.28" y="124.46"/>
+<instance part="SW-SW1" gate="SW1" x="55.88" y="132.08" rot="R180"/>
+<instance part="GND19" gate="1" x="68.58" y="121.92"/>
+<instance part="GND9" gate="1" x="50.8" y="121.92"/>
 </instances>
 <busses>
 </busses>
@@ -7153,8 +7153,8 @@ green                  56
 <label x="236.22" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="142.24" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
-<label x="81.28" y="144.78" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="50.8" y1="139.7" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
+<label x="50.8" y="142.24" size="1.016" layer="95" rot="R90" xref="yes"/>
 <pinref part="SW-SW1" gate="SW1" pin="C1"/>
 </segment>
 </net>
@@ -7170,8 +7170,8 @@ green                  56
 <label x="236.22" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="142.24" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
-<label x="76.2" y="144.78" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="45.72" y1="139.7" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
+<label x="45.72" y="142.24" size="1.016" layer="95" rot="R90" xref="yes"/>
 <pinref part="SW-SW1" gate="SW1" pin="C2"/>
 </segment>
 </net>
